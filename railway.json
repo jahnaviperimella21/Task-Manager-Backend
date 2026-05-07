@@ -5,7 +5,6 @@
     "watchPatterns": ["src/**", "pom.xml", "Dockerfile"]
   },
   "deploy": {
-    "startCommand": "java -jar target/*.jar",
     "healthcheckPath": "/api/auth/login",
     "restartPolicyType": "ON_FAILURE"
   }
